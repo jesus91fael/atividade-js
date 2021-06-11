@@ -8,7 +8,47 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+    <main class="c-conteiner">
+        <article class="c-calc">
+            <section class="c-display">
+                <div class="c-cal-row c-digitados"></div>
+                <div class="c-cal-row c-res"></div> 
+            </section>
+                                   
+            <section class="c-cal-row c-buttons">
+                <div class="c-col">
+                    <button class="c-btnnum" onclick="insertnumber('7')">7</button>
+                    <button class="c-btnnum" onclick="insertnumber('4')">4</button>
+                    <button class="c-btnnum" onclick="insertnumber('1')">1</button>
+                    <button class="c-btnnum" onclick="insertnumber('0')">0</button>                    
+                </div>
+                <div class="c-col">
+                    <button class="c-btnnum" onclick="insertnumber('8')">8</button>
+                    <button class="c-btnnum" onclick="insertnumber('5')" >5</button>
+                    <button class="c-btnnum" onclick="insertnumber('2')">2</button>
+                    <button class="c-btnnum" onclick="insertnumber('.')">.</button>                    
+                </div>
+                <div class="c-col">
+                    <button class="c-btnnum" onclick="insertnumber('9')" >9</button>
+                    <button class="c-btnnum" onclick="insertnumber('6')">6</button>
+                    <button class="c-btnnum" onclick="insertnumber('3')">3</button>
+                    <button class="c-btnnum" onclick="insertnumber('%')">%</button>                    
+                </div>
+                <div class="c-col">
+                    <button class="c-btnnum" onclick="insertnumber('/')">/</button>
+                    <button class="c-btnnum" onclick="insertnumber('*')">x</button>
+                    <button class="c-btnnum" onclick="insertnumber('-')">-</button>
+                    <button class="c-btnnum" onclick="insertnumber('+')">+</button>                    
+                </div>
+                <div class="c-col">
+                    <button class="c-btnnum" onclick="back()">←</button>
+                    <button class="c-btnnum" onclick="clean()">C</button>
+                    <button class="c-btnnum" onclick="back()">CE</button>
+                    <button class="c-btnnum" onclick="calcular()">=</button>                
+                </div>
+            </section>
+        </article>
+    </main>
     
     <script src="js/script.js"></script>
 </body>

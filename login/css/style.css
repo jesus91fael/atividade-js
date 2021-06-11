@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.c-body{
+    max-width: 1440px;
+    min-height: 100vh;
+    background: #cecbcb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+
+}
+
+.c-main{
+    max-width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background: #ffffff;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center
+
+    
+}
+
+.c-login{
+ 
+    
+    
+}
+
+
+#btnlogin{
+    background: #cecbcb;
+    padding: 5px 20px;
+}
