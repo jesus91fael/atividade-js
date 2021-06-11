@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .c-body{
@@ -16,26 +17,32 @@
 
 .c-main{
     max-width: 400px;
-    height: 100px;
+    height: 150px;
     border-radius: 10px;
     margin: 0 auto;
     background: #ffffff;
     display: flex;
-    
+    padding: 30px;
     justify-content: center;
-    align-items: center
-
-    
+    align-items: center;
+    box-shadow: 3px 3px #444444;    
 }
 
 .c-login{
- 
-    
-    
+    line-height: 40px;
 }
 
+.txtdados{
+    border: 0.2px solid #cecbcb;
+    border-radius: 3px ;
+    padding: 10px;
+}
 
 #btnlogin{
     background: #cecbcb;
     padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px #444444;
+
 }
