@@ -2,6 +2,7 @@ let email = document.getElementById('#txtuser')
 let senha = document.querySelector('#txtpassword')
 let button = document.querySelector('#btnlogin')
 
+
 function checkInputs(inputs) {
     var filled = true;
     
@@ -35,5 +36,3 @@ function checkInputs(inputs) {
 const login = () =>{
     alert(`Seu E-mail: ${email} <br>Sua Senha: ${senha}`)
 }
-
-console.log(email)
