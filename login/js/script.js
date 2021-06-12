@@ -1,5 +1,5 @@
-let email = document.getElementById('#txtuser')
-let senha = document.querySelector('#txtpassword')
+let email = document.getElementById('txtuser')
+let senha = document.getElementById('txtpassword')
 let button = document.querySelector('#btnlogin')
 let form = document.querySelector('.c-login')
 
@@ -34,8 +34,7 @@ inputs.forEach(function(input) {
   })
 })
 
-const mensagem = () =>{
-  
-  alert(`Seu e-email é ${email} e sua senha é ${senha}`)
+const mensagem = () =>{  
+  alert(`Seu e-email é ${email.value} e sua senha é  ${senha}`)
 }
 
