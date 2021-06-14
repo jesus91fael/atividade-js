@@ -3,11 +3,19 @@
     padding: 0;
     box-sizing: border-box;    
 }
-
+.c-conteiner{
+    max-width: 1440px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
 
 .c-calc{
     margin: auto;
     max-width: 250px;
+    
     border-radius: 10px;
     background: #dddbdb;
     display: flex;

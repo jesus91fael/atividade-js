@@ -26,7 +26,7 @@ inputs.forEach(function(input) {
   input.addEventListener("keyup", function() {
     if(checkInputs(inputs)) {
       button.disabled = false
-      document.getElementById("btnlogin").style.background = "#7c7c7c"
+      document.getElementById("btnlogin").style.background = "#1d1d97"
       document.getElementById("btnlogin").style.color = "#ffffff"  
     }else {
       button.disabled = true;
@@ -35,6 +35,6 @@ inputs.forEach(function(input) {
 })
 
 const mensagem = () =>{  
-  alert(`Seu e-email é ${email.value} e sua senha é  ${senha}`)
+  alert(`Seu e-email é ${email.value} e sua senha é *****`)
 }
 
