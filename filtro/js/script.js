@@ -1,5 +1,5 @@
-let resultado = document.getElementById('c-resultado');
-
+let resultado = document.getElementById('c-resultado')
+let lista = document.getElementById('c-filter')
 let ALUNOS = {
 	'fernanda': {
 		name: 'Fernanda Oliveira',
@@ -50,6 +50,10 @@ let ALUNOS = {
         country: 'Argentina'
 	}
 }
+
+lista.addEventListener('input', (e) => {
+	filter(e.target.value);
+})
 
 function renderAlunos(alunos){
 	function item(aluno) {
