@@ -89,11 +89,4 @@ function filter(valorDigitado){
 	renderAlunos(newAlunos)
 } 
 
-const filterElement = document.querySelector('#c-filter');
-
-filterElement.addEventListener('change', (event) => {
-	const value = event.target.value
-	filter(value)
-})
-
 renderAlunos(ALUNOS)
