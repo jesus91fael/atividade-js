@@ -73,11 +73,11 @@ function filter(valorDigitado){
 	let newAlunos = [] 
 		
 	Object.keys(ALUNOS).forEach(aluno => {
-		if ((ALUNOS[aluno].name).includes(valorDigitado)) {
+		if ((ALUNOS[aluno].name.toLowerCase()).includes(valorDigitado.toLowerCase())) {
 			newAlunos.push(ALUNOS[aluno]) 
-		}else if((ALUNOS[aluno].city).includes(valorDigitado)) {
+		}else if((ALUNOS[aluno].city.toLowerCase()).includes(valorDigitado.toLowerCase())) {
 			newAlunos.push(ALUNOS[aluno]) 
-		}else if((ALUNOS[aluno].country).includes(valorDigitado)) {
+		}else if((ALUNOS[aluno].country.toLowerCase()).includes(valorDigitado.toLowerCase())) {
 			newAlunos.push(ALUNOS[aluno]) 
 		}
 	}) 
