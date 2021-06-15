@@ -30,8 +30,8 @@ divisão</li>
 aleatórios e retorne a somatória de todos eles.</li>
 <li>Tendo como dados de entrada a altura e o sexo de uma pessoa (?M? masculino e ?F? feminino), construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
     <ul>
-        <li>para homens: (72.7*h)-58<li>
-        <li>para mulheres: (62.1*h)-44.7<li>
+        <li>para homens: (72.7*h)-58</li>
+        <li>para mulheres: (62.1*h)-44.7</li>
     </ul>
 </li>
 <li>Escrever um algoritmo que lê um valor em reais e calcula qual o menor número possível de notas de 100, 50, 10, 5 e 1 em que o valor lido pode ser decomposto. Escrever o valor lido e a relação de notas necessárias.</li>
