@@ -17,4 +17,4 @@ for (let i = 0 ; i < tamanhavet ; i++){
 
 console.log(lista)
 
-console.log(`O maior número do array é ${soma}`)
+console.log(`A soma do array é ${soma}`)
