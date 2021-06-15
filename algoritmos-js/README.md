@@ -2,11 +2,17 @@ Treinando a lógica de programação
 Para resolver os exercícios abaixo você deve utilizar funções, listas, enviar argumentos e trabalhar
 com parâmetros.
 Assuntos que podem ser úteis:
-Array: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array
-Funções: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions
-Console.log: https://developer.mozilla.org/pt-BR/docs/Web/API/console/log
-Map: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/
-map
+
+<ul>
+<li><strong>Array:</strong> https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array</li>
+<li><strong>Funções:</strong> https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions</li>
+<li><strong>Console.log:</strong> https://developer.mozilla.org/pt-BR/docs/Web/API/console/log</li>
+<li><strong>Map:</strong> https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map</li>
+</ul>
+
+
+
+
 
 <ol>
 <li>Receba dois argumentos a e b e retorne se é um número é ímpar ou par.</li>
