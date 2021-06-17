@@ -63,4 +63,4 @@ function filter(){
 } 
 
 
-renderMGS(MGS)
+renderMGS(MGS[1])
