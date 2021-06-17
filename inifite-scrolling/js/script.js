@@ -37,9 +37,9 @@ function criarPost() {
             <img src="https://placedog.net/150/200?random" alt="" />
         </div>	
         <div class="c-box__desc">
-                <h2 class="title">${randomFrom(titles)}</h2>
+                <h2 class="espace">${randomFrom(titles)}</h2>
                 <small class="date">${randomDate()}</small>
-                <p class="paragrafo">${randomFrom(texts)}</p>
+                <p class="espace">${randomFrom(texts)}</p>
             </div>
         </section>
 	`
@@ -48,6 +48,7 @@ function criarPost() {
 
 function randomFrom(arr) {
 	return arr[Math.floor(Math.random() * arr.length)]
+    
 }
 
 function randomDate() {
