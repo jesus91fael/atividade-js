@@ -57,6 +57,7 @@ function filter(){
 
 		newMGS = MGS[Math.floor(Math.random() * max ) + 1]
 	})
+	texto.innerHTML = ''
 	renderMGS(newMGS)
 	console.log(newMGS)
 } 
