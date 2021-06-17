@@ -31,9 +31,6 @@ const MGS = [
 const btn = document.querySelector('.c-btn')
 const texto = document.querySelector('.c-card__msg')
 
-
-
-
 btn.addEventListener('click', (e) => {
 	filter(e.target.value);
 })
@@ -45,19 +42,23 @@ function renderMGS(mgs){
 		`
 	}
 	const elements = Object.keys(mgs).map((items, index) => {
-		return item(mgs[items])
+		return item(mgs)
 	})
 	texto.insertAdjacentHTML('beforeend', elements)
 }
 
 
 function filter(){
-	let newMGS = [] 
-		
-	Object.keys(MGS).forEach(items => {
-			newMGS.push(MGS[items]) 
-	}) 
+	let newMGS = ''
+	let max = MGS.length
+
+	
+	Object.keys(MGS).forEach( () => {
+
+		newMGS = MGS[Math.floor(Math.random() * max ) + 1]
+	})
 	renderMGS(newMGS)
+	console.log(newMGS)
 } 
 
 
