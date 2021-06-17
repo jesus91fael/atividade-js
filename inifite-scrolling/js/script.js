@@ -19,41 +19,39 @@ const texts = [
 window.addEventListener('scroll', () => {
 	
 	const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
-	console.log('scroll', scrollTop + clientHeight, scrollHeight - 50);
 	
 	if(scrollTop + clientHeight >= scrollHeight - 5) {
-		createPost()
+		criarPost()
 	}
 });
 
-createPost();
-createPost();
-createPost();
+criarPost()
+criarPost()
+criarPost()
 
-function createPost() {
-	const post = document.createElement('section');
-	post.classList.add('c-box__container');
+function criarPost() {
+	const post = document.createElement('section')
+	post.classList.add('c-box__container')
 	post.innerHTML = `
         <div class="c-box__desc">
             <img src="https://placedog.net/150/200?random" alt="" />
         </div>	
         <div class="c-box__desc">
-                <h2 class="post-title">${randomFrom(titles)}</h2>
-                <small class="post-date">${randomDate()}</small>
-                <p class="post-excerpt">${randomFrom(texts)}</p>
+                <h2 class="title">${randomFrom(titles)}</h2>
+                <small class="date">${randomDate()}</small>
+                <p class="paragrafo">${randomFrom(texts)}</p>
             </div>
         </section>
-	`;
-	
-	container.appendChild(post);
+	`
+	container.appendChild(post)
 }
 
 function randomFrom(arr) {
-	return arr[Math.floor(Math.random() * arr.length)];
+	return arr[Math.floor(Math.random() * arr.length)]
 }
 
 function randomDate() {
-	const day = Math.floor(Math.random() * 27) + 1;
-	const month = Math.floor(Math.random() * 11) + 1;
-	return `${day}/${month}/2020`;
+	const day = Math.floor(Math.random() * 27) + 1
+	const month = Math.floor(Math.random() * 11) + 1
+	return `${day}/${month}/2020`
 }

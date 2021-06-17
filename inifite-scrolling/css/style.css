@@ -6,27 +6,27 @@
 
 .c-body{
     background: #353b48;    
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
     margin: 0 auto;
+    color: #ffffff;
 }
 
 .c-box__container{
     display: flex;
-    flex-wrap: wrap;
     width: 600px;
-    background: #4a4f5b;
-    color: #ffffff;
+    background: #4a4f5b;    
     border-radius: 5px;
     box-shadow: 3px 3px 10px rgba(7, 7, 7, 0.35);    
     padding: 10px;
     margin: 10px;
-    align-items: center;
-    justify-content: space-between;
+    align-items: center;  
 }
 
 .c-box__desc{
-  flex: 1;
+  margin: 10px;
+  line-height: 2;
+}
 
+.paragrafo{
+    line-height: 1;
 }
