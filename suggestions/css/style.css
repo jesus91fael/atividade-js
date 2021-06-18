@@ -19,12 +19,27 @@
     line-height: 2;
 }
 
+.c-sug__tot{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 .c-txt__sug{
     border-radius: 5px;
     padding: 10px;
     color: #7c7c7c;
     width: 400px;
     height: 100px;
+}
+
+.btn-vote{
+    background: url('../img/vote.svg') no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px;
+
 }
 
 .c-suggestions{
@@ -39,6 +54,10 @@
 
 }
 
+.c-qtd{
+    height: 30px;
+}
+
 .c-sug-__items{
     margin: 0 auto;
     padding:30px;
@@ -51,4 +70,7 @@
 
 .c-votes{
     margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
 }
