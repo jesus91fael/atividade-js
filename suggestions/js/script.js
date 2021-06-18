@@ -32,14 +32,14 @@ const sugestions = () => {
             sugitem.innerText = count
             box.innerHTML += newSug
             document.querySelector(".c-txt__sug").value = ""
-            
+            let qtdvotes = document.querySelector('.c-sug__tot')
+            qtdvotes.innerText = sug.length + 2 + ` Sugestions`
         }
     })
     
 }
 
-let qtdvotes = document.querySelector('.c-sug__tot')
-qtdvotes.innerText = `${sug.length} Sugestions`
+
 
 
 
